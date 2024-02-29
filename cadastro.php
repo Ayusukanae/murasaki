@@ -10,6 +10,9 @@
             <fieldset>
                 <legend><b>Formulario de Clientes</b></legend>
                 <br>
+                <div class="inputbox>">
+                    <input type="text" name="nome" id="nome"class
+                </div>
             </fieldset>
         </form>
     </div>
