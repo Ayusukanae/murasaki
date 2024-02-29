@@ -1,8 +1,44 @@
 body{
-    background-color:white ;
+    
 }
-form{
+div{
     display: flex;
     flex-direction: column;
+   top: 50%;
+   left: 50%;
+   position: absolute;
+   transform: translate(-50%,-50%);
     max-width: 250px;
+
+}
+input{
+    padding: 5px;
+    border-radius: 15px;
+    outline: none;
+}
+button{
+    background-color: rgb(235, 72, 235);
+    border-radius: 13px;
+    color: white;
+    height: 20px;
+    width: 179px;
+    
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+label{
+    color: rgb(255, 255, 255);
+}
+button:hover{
+    background-color: rgb(163, 79, 241);
+}
+div{
+    background-color: rgb(99, 99, 99);
+    height: 200px;
+
+}
+a{
+    color: black;
 }
